@@ -10,17 +10,13 @@ canvas{
 }
 
 .vcenter{
-    position:absolute;
-    left:50%;
-    top:50%;
-    width:600px;
-    height:600px;
-    margin:-300px 0 0 -300px;
+    left:15%;
+    top:15%;
 }
 
 
 h1 {
-	font-size: 40px;
+	font-size: 4vw;
   font-weight: normal;
   font-family: 'Ubuntu';
 }
