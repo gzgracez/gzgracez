@@ -5,9 +5,16 @@ html, body{
 	padding: 0;
 }
 
-canvas{
+canvas#mycanvas{
 	display: block;
 	position: fixed;
+}
+
+div#particles-js{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	height: calc(100% - 60px);
 }
 
 body { background: #ddebfa; }
@@ -66,10 +73,12 @@ body { background: #ddebfa; }
 	background-color: rgba(0, 186, 255, 0.46);
 }
 
-.vcenter{
+div.vcenter{
 	position:absolute;
-	left:15%;
-	top:15%;
+	/*left:15%;
+	top:15%;*/
+	top:30%;
+	left: 15%;
 }
 
 h1 {
