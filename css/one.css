@@ -9,6 +9,35 @@ canvas{
 	display: block;
 }
 
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 } 
+
+.navbar .nav > li > a {
+    color:  #000;
+}
+
+.navbar .nav > li > a:hover {
+    color:  #0069f8;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #000;
+  background-color: rgba(0, 186, 255, 0.46);
+}
+
+.navbar-default .navbar-brand {
+  color: #000;
+}
+
+.navbar .nav > li.active {
+    color:  #000;
+}
+
 .vcenter{
     position:absolute;
     left:15%;
@@ -18,5 +47,6 @@ canvas{
 h1 {
 	font-size: 4vw;
   font-weight: normal;
-  font-family: 'Ubuntu';
+  /*font-family: 'Ubuntu';*/
+  font-family: 'Bree Serif', serif;
 }
