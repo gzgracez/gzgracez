@@ -9,6 +9,7 @@ canvas{
 	display: block;
 }
 
+/* The navbar itself*/
 .navbar {
    background-color: transparent;
    background: transparent;
@@ -21,21 +22,41 @@ canvas{
     color:  #000;
 }
 
+/* Navbar Hovering */
 .navbar .nav > li > a:hover {
     color:  #0069f8;
 }
 
+/* Navbar Active */
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color: #000;
   background-color: rgba(0, 186, 255, 0.46);
 }
 
+/* Navbar brand */
 .navbar-default .navbar-brand {
   color: #000;
 }
 
-.navbar .nav > li.active {
-    color:  #000;
+/* Hamburger lines */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+/* Hamburger border */
+.navbar-default .navbar-toggle {
+	border-color:#000
+}
+
+/* Hamburger */
+.navbar-toggle {
+  background-color: rgba(0, 118, 255, 0.46);
+  border: 1px solid transparent;
+}
+
+/* Hover above hamburger */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: rgba(0, 186, 255, 0.46);
 }
 
 .vcenter{
