@@ -1,0 +1,11 @@
+# Site settings
+title: Grace
+email: grace@gracez.me
+description: Grace Z.'s Website
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://gracez.me" # the base hostname & protocol for your site
+twitter_username: gzgracez
+github_username:  gzgracez
+
+# Build settings
+markdown: kramdown
