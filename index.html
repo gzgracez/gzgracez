@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -114,11 +113,11 @@ layout: default
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "grab"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "resize": true
@@ -151,20 +150,9 @@ layout: default
   },
   "retina_detect": true
 });
-var count_particles, stats, update;
-stats = new Stats;
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild(stats.domElement);
+var count_particles, update;
 count_particles = document.querySelector('.js-count-particles');
 update = function() {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);;
@@ -194,5 +182,3 @@ requestAnimationFrame(update);;
   }
   window.addEventListener('resize', resizeCanvas, false);
 </script>
-</body>
-</html>

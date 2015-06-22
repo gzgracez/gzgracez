@@ -2,11 +2,11 @@
 title: Grace
 email: grace@gracez.me
 description: Learn more about Grace Z.!
-baseurl: "" # the subpath of your site, e.g. /blog/
+, "css/one.css"baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gracez.me" # the base hostname & protocol for your site
 twitter_username: gzgracez
 github_username:  gzgracez
 
 # Build settings
 markdown: kramdown
-keep_files: ["css/bootstrap.min.css", "css/one.css"]
+keep_files: ["css/bootstrap.min.css", "css/one.css", "js/jquery-1.11.0.js", "js/bootstrap.min.js"]
