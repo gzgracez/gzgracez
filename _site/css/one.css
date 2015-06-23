@@ -1,0 +1,89 @@
+html, body{
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+
+canvas#mycanvas{
+	display: block;
+	position: fixed;
+}
+
+div#particles-js{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	height: calc(100% - 60px);
+}
+
+body { background: #ddebfa; }
+
+/* The navbar itself*/
+.navbar {
+	background-color: rgba(0, 186, 255, 0.1);
+	background: rgba(0, 186, 255, 0.1);
+	border-color: rgba(0, 186, 255, 0.1);
+}
+
+/* Navbar text color */
+.navbar .nav > li > a {
+	color:  #000;
+	font-size: 20px;
+	font-family: 'Cabin', sans-serif;
+}
+
+/* Navbar brand */
+.navbar-default .navbar-brand {
+	color: #000;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Cabin', sans-serif;
+}
+
+/* Navbar Hovering */
+.navbar .nav > li > a:hover {
+	color:  #0069f8;
+}
+
+/* Navbar Active */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #000;
+	background-color: rgba(0, 186, 255, 0.46);
+}
+
+/* Hamburger lines */
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
+/* Hamburger border */
+.navbar-default .navbar-toggle {
+	border-color:#000
+}
+
+/* Hamburger */
+.navbar-toggle {
+	background-color: rgba(0, 118, 255, 0.46);
+	border: 1px solid transparent;
+}
+
+/* Hover above hamburger */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: rgba(0, 186, 255, 0.46);
+}
+
+div.vcenter{
+	position:absolute;
+	/*left:15%;
+	top:15%;*/
+	top:30%;
+	left: 15%;
+}
+
+h1 {
+	font-size: 4vw;
+	font-weight: normal;
+	/*font-family: 'Cabin', sans-serif;*/
+	font-family: 'Bree Serif', serif;
+}
